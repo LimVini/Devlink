@@ -124,7 +124,6 @@ ul {
 
 ul li a {
     background: var(--surface-color);
-    border: 1px solid var(--stroke-color);
     border-radius: 5px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
