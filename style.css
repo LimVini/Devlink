@@ -12,6 +12,7 @@
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./assets/moon-stars.svg);
+    --border-profile-color: rgba(255, 255, 255, 0.26);
 }
 
 .light {
@@ -22,6 +23,7 @@
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg-url: url(./assets/sun.svg);
+    --border-profile-color: rgba(0, 0, 0, 0.356);
 }
 
 body {
@@ -54,8 +56,8 @@ body {
     display: block;
     margin: auto;
     border-radius: 100px;
-    margin-top: 8px;
-    border: solid rgba(255, 255, 255, 0.26);
+    margin-top: 80px;
+    border: 3px solid var(--border-profile-color);
 }
 
 #profile p {
